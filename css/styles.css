@@ -788,6 +788,23 @@ img {
     right: 25px;
 }
 
+.label:hover .input,
+.label:focus .input{
+    border: 1px solid var(--button-color);
+}
+
+.input:focus,.input:hover{
+    border: 1px solid var(--button-color);
+}
+
+.label:hover .modal-icons,
+.label:focus .modal-icons,
+.input:focus .modal-icons,
+.input:hover .modal-icons {
+  fill: var(--button-color);
+}
+
+
 
   
 
