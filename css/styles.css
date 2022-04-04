@@ -575,7 +575,7 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-    transition: opacity var(--transition-fast), visibility var(--transition-fast);
+    transition: var(--animation);
 }
 
 .is-hidden{
