@@ -319,6 +319,7 @@ img {
 
 .clients-link:hover .social-icons{
     fill: var(--button-color);
+    transition: var(--animation);
 }
 
 .header-icons{
