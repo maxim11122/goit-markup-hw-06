@@ -301,6 +301,7 @@ img {
     width: 170px;
     height: 92px;
     display: flex;
+    transition: border var(--animation) 0s;
 }
 
 .clients-list-info:hover{
